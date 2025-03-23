@@ -107,16 +107,21 @@ This step helps in reducing noise and focusing the model on the most predictive 
 
 Refer to the [`requirements.txt`](requirements.txt) file for the full list of dependencies.
 
-## Contributing
+## Results
 
-Contributions are welcome! Feel free to fork the repository and submit a pull request with any improvements or bug fixes.
+Error Distribution: 
+
+>=0 and <1: 102264
+>=1 and <2: 32858
+>=2 and <3: 6109
+>=3 and <4: 811
+>=4: 2
+
+RMSE: 0.978170924312778
+
+Execution Time: 175 sec
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
-
-For any questions or suggestions, please reach out:
-- **Email:** your.email@example.com
-- **GitHub:** [your-github-username](https://github.com/your-github-username)
